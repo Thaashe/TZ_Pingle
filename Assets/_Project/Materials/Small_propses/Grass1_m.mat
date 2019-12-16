@@ -148,7 +148,7 @@ Material:
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
     - _diffusecolor: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &6600393884781883072
+--- !u!114 &1149303205217256667
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

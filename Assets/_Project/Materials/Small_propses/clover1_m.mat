@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-3048892655604271494
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 1
 --- !u!21 &2100000
 Material:
   serializedVersion: 6
@@ -21,12 +8,12 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: clover1_m
-  m_Shader: {fileID: 4800000, guid: b7839dad95683814aa64166edc107ae2, type: 3}
-  m_ShaderKeywords: _ALPHATEST_ON _NORMALMAP _RECEIVE_SHADOWS_OFF
-  m_LightmapFlags: 6
+  m_Shader: {fileID: 4800000, guid: 8b2244a10c81340458f62d6b38090be2, type: 3}
+  m_ShaderKeywords: GEOM_TYPE_LEAF _ALPHATEST_ON _NORMALMAP
+  m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2500
+  m_CustomRenderQueue: 2450
   stringTagMap:
     RenderType: TransparentCutout
   disabledShaderPasses: []
@@ -37,12 +24,8 @@ Material:
         m_Texture: {fileID: 2800000, guid: 1f7362fbb541a3949b1f7ead8f37e973, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 517f02635c6acca46bbed3a5ff8752a6, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 28c91d54010689f44a7ca6879095a17d, type: 3}
+        m_Texture: {fileID: 2800000, guid: b38e296b408643f45ad1e5a48929f644, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -96,27 +79,14 @@ Material:
     m_Floats:
     - _AO: 0
     - _Additionalwindstr: 0.1
-    - _AlphaClip: 1
     - _AlphaCutoff: 1
     - _BaseLight: 0.6
-    - _Blend: 0
-    - _BlendOp: 0
     - _BumpScale: 1
-    - _CameraFadingEnabled: 0
-    - _CameraFarFadeDistance: 2
-    - _CameraNearFadeDistance: 1
-    - _ColorMode: 0
     - _Cull: 0
     - _Cutoff: 0.4
     - _Desaturation: 0
     - _DetailNormalMapScale: 1
-    - _DistortionBlend: 0.5
-    - _DistortionEnabled: 0
-    - _DistortionStrength: 1
-    - _DistortionStrengthScaled: 0.1
     - _DstBlend: 0
-    - _FlipbookBlending: 0
-    - _FlipbookMode: 0
     - _Gloss: 0.4
     - _Glossiness: 0.5
     - _MainWindStr: 0.2
@@ -125,30 +95,20 @@ Material:
     - _Occlusion: 0.6
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _QueueOffset: 0
     - _Shininess: 0.1
-    - _Smoothness: 0.5
-    - _SoftParticlesEnabled: 0
-    - _SoftParticlesFarFadeDistance: 1
-    - _SoftParticlesNearFadeDistance: 0
     - _Specular: 1
     - _SquashAmount: 1
     - _SrcBlend: 1
-    - _Surface: 0
     - _UVSec: 0
     - _WindQuality: 0
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.8602941, g: 0.8602941, b: 0.8602941, a: 1}
-    - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
-    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _Color: {r: 0.8602941, g: 0.8602941, b: 0.8602941, a: 1}
     - _Diffusecolor: {r: 0.8014706, g: 0.8014706, b: 0.8014706, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
     - _LightWrap: {r: 0.5808823, g: 0.5808823, b: 0.5808823, a: 1}
     - _MainWindvector: {r: 0.4, g: 0, b: 0, a: 0}
-    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0, g: 0, b: 0, a: 0}
     - _Transmission: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
