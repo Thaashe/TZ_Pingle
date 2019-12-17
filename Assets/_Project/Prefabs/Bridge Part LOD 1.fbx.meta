@@ -1,37 +1,89 @@
 fileFormatVersion: 2
 guid: a753de0bfd95fb945905768c01ca0b41
-timeCreated: 1509730877
-licenseType: Store
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Circle.047
-    100004: Circle.072
-    100006: Circle.073
-    100008: Cube.020
-    100010: Cube.039
-    400000: //RootNode
-    400002: Circle.047
-    400004: Circle.072
-    400006: Circle.073
-    400008: Cube.020
-    400010: Cube.039
-    2300000: Circle.047
-    2300002: Circle.072
-    2300004: Circle.073
-    2300006: Cube.020
-    2300008: Cube.039
-    3300000: Circle.047
-    3300002: Circle.072
-    3300004: Circle.073
-    3300006: Cube.020
-    3300008: Cube.039
-    4300000: Circle.047
-    4300002: Cube.039
-    4300004: Cube.020
-    4300006: Circle.073
-    4300008: Circle.072
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Circle.047
+  - first:
+      1: 100004
+    second: Circle.072
+  - first:
+      1: 100006
+    second: Circle.073
+  - first:
+      1: 100008
+    second: Cube.020
+  - first:
+      1: 100010
+    second: Cube.039
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Circle.047
+  - first:
+      4: 400004
+    second: Circle.072
+  - first:
+      4: 400006
+    second: Circle.073
+  - first:
+      4: 400008
+    second: Cube.020
+  - first:
+      4: 400010
+    second: Cube.039
+  - first:
+      23: 2300000
+    second: Circle.047
+  - first:
+      23: 2300002
+    second: Circle.072
+  - first:
+      23: 2300004
+    second: Circle.073
+  - first:
+      23: 2300006
+    second: Cube.020
+  - first:
+      23: 2300008
+    second: Cube.039
+  - first:
+      33: 3300000
+    second: Circle.047
+  - first:
+      33: 3300002
+    second: Circle.072
+  - first:
+      33: 3300004
+    second: Circle.073
+  - first:
+      33: 3300006
+    second: Cube.020
+  - first:
+      33: 3300008
+    second: Cube.039
+  - first:
+      43: 4300000
+    second: Circle.047
+  - first:
+      43: 4300002
+    second: Cube.039
+  - first:
+      43: 4300004
+    second: Cube.020
+  - first:
+      43: 4300006
+    second: Circle.073
+  - first:
+      43: 4300008
+    second: Circle.072
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -59,7 +111,7 @@ ModelImporter:
       name: Wood Parts
     second: {fileID: 2100000, guid: c3655d15929bc8a48803caf0f1d31a1d, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -76,6 +128,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -90,6 +143,8 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -97,9 +152,14 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -110,10 +170,14 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -123,8 +187,8 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
